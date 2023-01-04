@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">LIST OF COUNTRIES</string>
+    <string-array name="countries">
+        <item>"INDIA"</item>
+        <item>"USA"</item>
+        <item>"CHINA"</item>
+        <item>"PAKISTAN"</item>
+        <item>"SRI LANKA"</item>
+        <item>"BANGLADESH"</item>
+        <item>"FRANCE"</item>
+        <item>"AUSTRILIA"</item>
+        <item>"NEWZELAND"</item>
+        <item>"ITALI"</item>
+        <item>"GERMANY"</item>
+        <item>"KOREA"</item>
+        <item>"AFRICA"</item>
+        <item>"RUSSIA"</item>
+        <item>"BRITAN"</item>
+        <item>"SAUDI"</item>
+    </string-array>
+
+</resources>

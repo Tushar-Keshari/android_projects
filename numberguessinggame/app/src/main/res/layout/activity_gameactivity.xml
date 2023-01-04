@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/constrainlayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FAC339"
+    tools:context=".Gameactivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewlast"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/textviewcount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <TextView
+            android:id="@+id/texthint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="TextView"
+            android:textSize="24sp"
+            android:visibility="invisible" />
+
+        <EditText
+            android:id="@+id/enternumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Enter The Number"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:textColor="#CD2E2E" />
+
+        <Button
+            android:id="@+id/buttonconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#18A0EA"
+            android:backgroundTint="@color/teal_700"
+            android:ellipsize="start"
+            android:text="CONFIRM"
+            android:textSize="34sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
